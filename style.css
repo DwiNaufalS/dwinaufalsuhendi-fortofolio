@@ -1,0 +1,160 @@
+body{
+    background-color: chocolate;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;400&display=swap');
+
+.name {
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.nama {
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.name {
+    background-color:cadetblue;
+    font-size: 15px;
+    font: 600;
+    width: 290px;
+    height: 80px;
+    border: 3px solid black;
+}
+ 
+
+.gambar>.gambar-saya {
+    margin:auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid black
+}
+
+.nama {
+    color: whitesmoke;
+    background-color: cadetblue;
+    font-size: 15px;
+    font: 600;
+    max-width: 80px;
+    max-height: 70px;
+    width: 72px;
+    height: 63px;
+    border: 3px solid black;
+}
+
+.paragraf {
+    color: whitesmoke;
+    background-color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19px;
+    max-width: 500px;
+    max-height: 150px;
+    width: 450px;
+    height: 135px;
+    border: 3px solid black;
+}
+
+.data-diri {
+    color: whitesmoke;
+    background-color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17px;
+    max-width: 350px;
+    max-height: 100px;
+    width: 330px;
+    height: 90px;
+    border: 3px solid black
+}
+
+.tabel {
+    color: whitesmoke;
+    background-color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    max-width: 300px;
+    max-height: 120px;
+    width: 300px;
+    height: 100px;
+    border: 3px solid black;
+}
+
+.organisasi {
+    color: whitesmoke;
+    background-color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    max-width: 300px;
+    max-height: 80px;
+    width: 280px;
+    height: 50px;
+    border: 3px solid black
+}
+
+.pengalaman {
+    color: whitesmoke;
+    background-color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    max-width: 550px;
+    max-height: 60px;
+    width: 520px;
+    height: 50px;
+    border: 3px solid black;
+}
+
+.inspirasi {
+    color: whitesmoke;
+    background-color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    max-width: 150px;
+    max-height: 70px;
+    width: 115px;
+    height: 55px;
+    border: 3px solid black   
+}
+
+.tabel2 {
+    color: whitesmoke;
+    background-color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17px;
+    max-width: 550px;
+    max-height: 150px;
+    width: 540px;
+    height: 145px;
+    border: 3px solid black
+}
+
+:root {
+    --warnamerah: red;
+    --lebarkotak: 250px;
+    --tinggikotak: 200px
+}
+
+.kotak-1 {
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    line-height: 25px;
+    width: var(--lebarkotak);
+    height: var(--tinggikotak);
+    margin: 10px;
+    background-color: var(--warnamerah);
+    border: 3px solid yellow;
+}
