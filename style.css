@@ -1,160 +1,140 @@
-body{
-    background-color: chocolate;
+body {
+    background-color: aquamarine;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;400&display=swap');
-
-.name {
-    font-family: 'Gemunu Libre', sans-serif;
+.foto{
+    text-align: center;
 }
 
-.nama {
-    font-family: 'Gemunu Libre', sans-serif;
+.perkenalan:hover {
+    color: yellow;
 }
 
-.name {
-    background-color:cadetblue;
-    font-size: 15px;
-    font: 600;
-    width: 290px;
-    height: 80px;
-    border: 3px solid black;
-}
+.ukuran-gambar {
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    margin: auto;
  
+}
+.satu {
+    text-align: center;
+    background-color : yellowgreen;
+    font-size: larger;
+    margin: auto;
+}
+.name {
+    background-color: yellowgreen;
+    border: 4px solid black;
+    width: 1000px;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: center ;
+    margin: auto;
+}
 
-.gambar>.gambar-saya {
-    margin:auto;
+.dua {
+    text-align:center ;
+    font-size: larger;
+    background-color: yellowgreen;
+}
+.dua :hover {
+    color:yellow ;
+}
+.akun {
+    background-color : yellowgreen;
+    width: 400px;
+    border: 4px solid black;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: auto;
+}
+.tiga {
+    text-align: center;
+    font-size: larger;
+    background-color: yellowgreen;
+} 
+.tiga :hover {
+    color: yellow;
+}
+.pendidikan{
+    background-color: yellowgreen;
     width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    border: 3px solid black
+    border: 4px solid black;
+    font-size: larger;
+    text-align: center;
+    margin: auto;
 }
 
-.nama {
-    color: whitesmoke;
-    background-color: cadetblue;
-    font-size: 15px;
-    font: 600;
-    max-width: 80px;
+.lima{
+    text-align: center;
+    font-size: larger;
+    background-color: yellowgreen;
+}
+.lima :hover {
+    color: yellow;
+}
+.skill{
+    background-color: yellowgreen;
+    width: 700px;
+    height: 125px;
+    border: 4px solid black;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    border: 4px solid black;
+    margin: auto;
+}
+    /* prestasi */
+.empat{ 
+    text-align: center;
+    font-size: larger;
+    background-color: yellowgreen ;
+}
+.empat:hover {
+      color : yellow;
+}
+.pengalaman{
+    background-color:yellowgreen;
+    border:4px solid black;
+    width: 700px;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: auto;
+}
+
+.enam{
+    text-align: center;
+    font-size: larger; 
+    background-color:yellowgreen ;
+    margin: auto;
+}
+.enam :hover {
+    color: yellow;
+}
+.web{
+    background-color: yellowgreen;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 4px solid black;
+    text-align: center;
+}
+
+.prestasi{
+    background-color: yellowgreen ;
+    max-width: 400px;
+    width: 700px;
     max-height: 70px;
-    width: 72px;
-    height: 63px;
-    border: 3px solid black;
+    height: 900px;
+    border: 4px solid black;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: auto;
 }
-
-.paragraf {
-    color: whitesmoke;
-    background-color: cadetblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 19px;
-    max-width: 500px;
-    max-height: 150px;
-    width: 450px;
-    height: 135px;
-    border: 3px solid black;
+.tujuh {
+    background-color:yellowgreen ;;
+    margin: auto;
+    text-align: center;
+    font-size: larger;
 }
-
-.data-diri {
-    color: whitesmoke;
-    background-color: cadetblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 17px;
-    max-width: 350px;
-    max-height: 100px;
-    width: 330px;
-    height: 90px;
-    border: 3px solid black
-}
-
-.tabel {
-    color: whitesmoke;
-    background-color: cadetblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 18px;
-    max-width: 300px;
-    max-height: 120px;
-    width: 300px;
-    height: 100px;
-    border: 3px solid black;
-}
-
-.organisasi {
-    color: whitesmoke;
-    background-color: cadetblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 15px;
-    max-width: 300px;
-    max-height: 80px;
-    width: 280px;
-    height: 50px;
-    border: 3px solid black
-}
-
-.pengalaman {
-    color: whitesmoke;
-    background-color: cadetblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 15px;
-    max-width: 550px;
-    max-height: 60px;
-    width: 520px;
-    height: 50px;
-    border: 3px solid black;
-}
-
-.inspirasi {
-    color: whitesmoke;
-    background-color: cadetblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 15px;
-    max-width: 150px;
-    max-height: 70px;
-    width: 115px;
-    height: 55px;
-    border: 3px solid black   
-}
-
-.tabel2 {
-    color: whitesmoke;
-    background-color: cadetblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 17px;
-    max-width: 550px;
-    max-height: 150px;
-    width: 540px;
-    height: 145px;
-    border: 3px solid black
-}
-
-:root {
-    --warnamerah: red;
-    --lebarkotak: 250px;
-    --tinggikotak: 200px
-}
-
-.kotak-1 {
-    color: whitesmoke;
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 700;
-    line-height: 25px;
-    width: var(--lebarkotak);
-    height: var(--tinggikotak);
-    margin: 10px;
-    background-color: var(--warnamerah);
-    border: 3px solid yellow;
+.tujuh :hover {
+    color: yellow;
 }
